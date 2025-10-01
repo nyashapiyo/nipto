@@ -1,0 +1,34 @@
+{
+  "name": "nipto",
+  "version": "1.0.0",
+  "description": "My Personal Front End Development portfolio",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyashapiyo/nipto.git"
+  },
+  "keywords": [
+    "portfolio",
+    "resume",
+    "profile",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Nyasha Piyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyashapiyo/nipto/issues"
+  },
+  "homepage": "https://github.com/nyashapiyo/nipto#readme",
+  "dependencies": {
+    "jsdom": "^27.0.0"
+  }
+}

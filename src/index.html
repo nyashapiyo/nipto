@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Nipto Home Page</title>
+    <link rel="icon" href="https://uploads.onecompiler.io/43tdepn8y/43tpzj5qe/Screenshot%20(158).png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&family=IBM+Plex+Sans:wght@400;700&family=Michroma&family=Noto+Sans:wght@400;700&family=Nova+Square&display=swap" rel="stylesheet">
+  <!-- Google Fonts: IBM Plex Sans, Michroma, Noto Sans, Nova Square, Racing Sans--> 
+  </head>
+  
+  <body>
+    <div id="header">
+      <script>
+        fetch('./components/header.html')
+          .then(res => res.text())
+          .then(html => document.getElementById('header').innerHTML = html);
+      </script>
+    </div>
+    <main id = 'hero'>
+
+    </main>
+    <div id="footer">
+      <script>
+        fetch('./components/footer.html')
+          .then(res => res.text())
+          .then(html => document.getElementById('footer').innerHTML = html);
+      </script>
+    </div>
+  <script src="./main.js"></script>
+  </body>
+</html>

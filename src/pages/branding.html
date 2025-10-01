@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Niptō Brand System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&family=IBM+Plex+Sans:wght@400;700&family=Michroma&family=Noto+Sans:wght@400;700&family=Nova+Square&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/branding.css" />
+  <link rel="stylesheet" href="../styles/styles.css" />
+</head>
+<body>
+  <div id="header">
+    <script>
+      fetch('../components/header.html')
+        .then(res => res.text())
+        .then(html => document.getElementById('header').innerHTML = html);
+    </script>
+  </div>
+  <main>
+    <h1 class="title">Niptō Brand System</h1>
+
+    <section>
+      <h2 class="section-title">🎨 Primary Colors</h2>
+      <div class="palette">
+        <div class="swatch color-deep-slate">#1F2833<span>Deep Slate</span></div>
+        <div class="swatch color-cool-blue">#215E99<span>Cool Blue</span></div>
+        <div class="swatch color-rich-plum">#501549<span>Rich Plum</span></div>
+        <div class="swatch color-warm-orange">#E97132<span>Warm Orange</span></div>
+        <div class="swatch color-soft-gray">#C5C6C7<span>Soft Gray</span></div>
+        <div class="swatch color-soft-gold">#F9D57E<span>Soft Gold</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">🍗 Secondary Colors</h2>
+      <div class="palette">
+        <div class="swatch color-muted-blue">#A3BFD9<span>Muted Steel Blue</span></div>
+        <div class="swatch color-terracotta">#D88C65<span>Earthy Terracotta</span></div>
+        <div class="swatch color-dusty-mauve">#6B3A5E<span>Dusty Mauve</span></div>
+        <div class="swatch color-mid-gray">#9FA1A3<span>Mid-tone Gray</span></div>
+        <div class="swatch color-calm-green">#5FAF5E<span>Calm Green</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">🌈 Tertiary Colors</h2>
+      <div class="palette">
+        <div class="swatch color-creamy-blush">#F4E3D3<span>Creamy Blush</span></div>
+        <div class="swatch color-pale-cyan">#B8E2F2<span>Pale Cyan</span></div>
+        <div class="swatch color-light-gray">#EDEDED<span>Light Gray</span></div>
+        <div class="swatch color-charcoal-plum">#2C1B2E<span>Charcoal Plum</span></div>
+        <div class="swatch color-soft-gold">#F9D57E<span>Soft Gold</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">🔠 Typography System</h2>
+      <div class="typography-grid">
+        <div class="type-sample figtree">nipto<span>Logo Text – Figtree</span></div>
+        <div class="type-sample nova">np<span>Logo Icon – Nova Square</span></div>
+        <div class="type-sample michroma">This is decorative<span>Hero Headline – Michroma</span></div>
+        <div class="type-sample nova">This is decorative<span>Section Title – Nova Square</span></div>
+        <div class="type-sample plex">This is a heading<span>Heading – IBM Plex Sans</span></div>
+        <div class="type-sample noto">This is normal<span>Body Text – Noto Sans</span></div>
+        <div class="type-sample figtree">Button Label<span>UI Label – Figtree</span></div>
+      </div>
+    </section>
+  </main>
+  <div id="footer">
+      <script>
+        fetch('../components/footer.html')
+          .then(res => res.text())
+          .then(html => document.getElementById('footer').innerHTML = html);
+      </script>
+  </div>
+</body>
+</html>

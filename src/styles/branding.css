@@ -1,0 +1,80 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 2rem;
+  color: #1F2833;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: 'Figtree', sans-serif;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin: 2rem 0 1rem;
+  border-bottom: 2px solid #C5C6C7;
+  padding-bottom: 0.5rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.palette, .typography-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.swatch, .type-sample {
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.swatch span {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.type-sample {
+  background-color: #fff;
+  border: 1px solid #EDEDED;
+}
+
+.type-sample span {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* Font classes */
+.figtree { font-family: 'Figtree', sans-serif; }
+.nova { font-family: 'Nova Square', sans-serif; }
+.michroma { font-family: 'Michroma', sans-serif; }
+.noto { font-family: 'Noto Sans', sans-serif; }
+.plex { font-family: 'IBM Plex Sans', sans-serif; }
+
+/* Color classes */
+.color-deep-slate { background-color: #1F2833; color: #fff; }
+.color-cool-blue { background-color: #215E99; color: #fff; }
+.color-rich-plum { background-color: #501549; color: #fff; }
+.color-warm-orange { background-color: #E97132; color: #fff; }
+.color-soft-gray { background-color: #C5C6C7; color: #000; }
+.color-soft-gold { background-color: #F9D57E; color: #000; }
+
+.color-muted-blue { background-color: #A3BFD9; color: #fff; }
+.color-terracotta { background-color: #D88C65; color: #fff; }
+.color-dusty-mauve { background-color: #6B3A5E; color: #fff; }
+.color-mid-gray { background-color: #9FA1A3; color: #fff; }
+.color-calm-green { background-color: #5FAF5E; color: #fff; }
+
+.color-creamy-blush { background-color: #F4E3D3; color: #000; }
+.color-pale-cyan { background-color: #B8E2F2; color: #000; }
+.color-light-gray { background-color: #EDEDED; color: #000; }
+.color-charcoal-plum { background-color: #2C1B2E; color: #fff; }

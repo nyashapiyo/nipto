@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Heading</title>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&family=IBM+Plex+Sans:wght@400;700&family=Michroma&family=Noto+Sans:wght@400;700&family=Nova+Square&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/branding.css" />
+  <link rel="stylesheet" href="../styles/styles.css" />
+</head>
+<body>
+  <div id="header">
+    <script>
+      fetch('../components/header.html')
+        .then(res => res.text())
+        .then(html => document.getElementById('header').innerHTML = html);
+    </script>
+  </div>
+  <main>
+    <h1 class="title">Heading</h1>
+
+  </main>
+  <div id="footer">
+      <script>
+        fetch('../components/footer.html')
+          .then(res => res.text())
+          .then(html => document.getElementById('footer').innerHTML = html);
+      </script>
+  </div>
+</body>
+</html>
