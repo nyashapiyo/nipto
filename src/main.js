@@ -1,2 +1,1 @@
-const globalHeader = document.getElementById('header');
-console.log(globalHeader);
+const footerYear = document.getElementById('footer-year');
